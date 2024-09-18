@@ -1,0 +1,81 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/dev_mobile/coinexcha-app/Flutter/Release/iphoneos/Release-iphoneos/video_compress/video_compress.framework/video_compress'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x71CE9, size: 0x8, addend: 0x0, symName: _video_compressVersionString, symObjAddr: 0x0, symBinAddr: 0xE3B0, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x71D1E, size: 0x8, addend: 0x0, symName: _video_compressVersionNumber, symObjAddr: 0x30, symBinAddr: 0xE3E0, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x71D5B, size: 0x8, addend: 0x0, symName: '+[VideoCompressPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0x91, offset: 0x71DC5, size: 0x8, addend: 0x0, symName: '+[VideoCompressPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0x144, offset: 0x71F76, size: 0x8, addend: 0x0, symName: '_$s14video_compress12AvControllerC8getTrackySo07AVAssetF0CSgSo10AVURLAssetCFyycfU_', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0x1D8 }
+  - { offsetInCU: 0x2CC, offset: 0x720FE, size: 0x8, addend: 0x0, symName: '_$s14video_compress12AvControllerCACycfcTo', symObjAddr: 0x204, symBinAddr: 0x4210, symSize: 0x3C }
+  - { offsetInCU: 0x31D, offset: 0x7214F, size: 0x8, addend: 0x0, symName: '_$s14video_compress12AvControllerC8getTrackySo07AVAssetF0CSgSo10AVURLAssetCFTf4nd_n', symObjAddr: 0x498, symBinAddr: 0x4490, symSize: 0x190 }
+  - { offsetInCU: 0x38F, offset: 0x721C1, size: 0x8, addend: 0x0, symName: '_$s14video_compress12AvControllerC16getMetaDataByTag_3keySSSo7AVAssetC_SStFTf4nnd_n', symObjAddr: 0x6E4, symBinAddr: 0x46DC, symSize: 0x214 }
+  - { offsetInCU: 0x54B, offset: 0x7237D, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x1D8, symBinAddr: 0x41E4, symSize: 0x2C }
+  - { offsetInCU: 0x563, offset: 0x72395, size: 0x8, addend: 0x0, symName: '_$s14video_compress12AvControllerCMa', symObjAddr: 0x270, symBinAddr: 0x427C, symSize: 0x20 }
+  - { offsetInCU: 0x577, offset: 0x723A9, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x64C, symBinAddr: 0x4644, symSize: 0x40 }
+  - { offsetInCU: 0x58B, offset: 0x723BD, size: 0x8, addend: 0x0, symName: '_$s14video_compress12AvControllerC8getTrackySo07AVAssetF0CSgSo10AVURLAssetCFyycfU_TA', symObjAddr: 0x6C0, symBinAddr: 0x46B8, symSize: 0xC }
+  - { offsetInCU: 0x59F, offset: 0x723D1, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x6CC, symBinAddr: 0x46C4, symSize: 0x10 }
+  - { offsetInCU: 0x5B3, offset: 0x723E5, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x6DC, symBinAddr: 0x46D4, symSize: 0x8 }
+  - { offsetInCU: 0x952, offset: 0x72784, size: 0x8, addend: 0x0, symName: '_$s14video_compress12AvControllerCfD', symObjAddr: 0x240, symBinAddr: 0x424C, symSize: 0x30 }
+  - { offsetInCU: 0x68, offset: 0x728D9, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC8register4withySo07FlutterF9Registrar_p_tFZTo', symObjAddr: 0x4, symBinAddr: 0x492C, symSize: 0x30 }
+  - { offsetInCU: 0x1A1, offset: 0x72A12, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctFTo', symObjAddr: 0x1148, symBinAddr: 0x5A70, symSize: 0x7C }
+  - { offsetInCU: 0x22E, offset: 0x72A9F, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC14updateProgress33_7D7252D69F84E8D88FBF790A59CD25A7LL5timerySo7NSTimerC_tFTo', symObjAddr: 0x19B0, symBinAddr: 0x62D8, symSize: 0x50 }
+  - { offsetInCU: 0x30B, offset: 0x72B7C, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginCACycfcTo', symObjAddr: 0x2C3C, symBinAddr: 0x7564, symSize: 0x2C }
+  - { offsetInCU: 0x3D7, offset: 0x72C48, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC8register4withySo07FlutterF9Registrar_p_tFZTf4nd_n', symObjAddr: 0x34C0, symBinAddr: 0x7DE8, symSize: 0x1B8 }
+  - { offsetInCU: 0x493, offset: 0x72D04, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC9getBitMap33_7D7252D69F84E8D88FBF790A59CD25A7LLy10Foundation4DataVSgSS_So8NSNumberCAKyypSgXEtFTf4nnndd_n', symObjAddr: 0x3740, symBinAddr: 0x8028, symSize: 0x3B4 }
+  - { offsetInCU: 0x6D1, offset: 0x72F42, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC16getFileThumbnail33_7D7252D69F84E8D88FBF790A59CD25A7LLyySS_So8NSNumberCAGyypSgXEtF015$syXlSgIeyBy_ypV7Iegn_TRyXlSgIeyBy_Tf1nnncn_nTf4nnnng_n', symObjAddr: 0x3AF4, symBinAddr: 0x83DC, symSize: 0x72C }
+  - { offsetInCU: 0x962, offset: 0x731D3, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC16getMediaInfoJsonySDySSypSgGSSFTf4nd_n', symObjAddr: 0x4338, symBinAddr: 0x8C20, symSize: 0x6BC }
+  - { offsetInCU: 0xDC8, offset: 0x73639, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC14getComposition33_7D7252D69F84E8D88FBF790A59CD25A7LLySo7AVAssetCSb_So11CMTimeRangeaSo0R5TrackCtFTf4nnnd_n', symObjAddr: 0x49F4, symBinAddr: 0x92DC, symSize: 0x1FC }
+  - { offsetInCU: 0xE99, offset: 0x7370A, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC15getExportPreset33_7D7252D69F84E8D88FBF790A59CD25A7LLySSSo8NSNumberCFTf4nd_n', symObjAddr: 0x4BF0, symBinAddr: 0x94D8, symSize: 0x198 }
+  - { offsetInCU: 0xED7, offset: 0x73748, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF015$syXlSgIeyBy_ypN7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x4ED4, symBinAddr: 0x97BC, symSize: 0x16D4 }
+  - { offsetInCU: 0x16C1, offset: 0x73F32, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x11C4, symBinAddr: 0x5AEC, symSize: 0xD8 }
+  - { offsetInCU: 0x185B, offset: 0x740CC, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginCfETo', symObjAddr: 0x2C98, symBinAddr: 0x75C0, symSize: 0x5C }
+  - { offsetInCU: 0x1A09, offset: 0x7427A, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x3678, symBinAddr: 0x7FA0, symSize: 0x48 }
+  - { offsetInCU: 0x1A1D, offset: 0x7428E, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x3700, symBinAddr: 0x7FE8, symSize: 0x40 }
+  - { offsetInCU: 0x1B2B, offset: 0x7439C, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x4D88, symBinAddr: 0x9670, symSize: 0x10 }
+  - { offsetInCU: 0x1B3F, offset: 0x743B0, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x4D98, symBinAddr: 0x9680, symSize: 0x3C }
+  - { offsetInCU: 0x1B53, offset: 0x743C4, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOy', symObjAddr: 0x4DD4, symBinAddr: 0x96BC, symSize: 0x44 }
+  - { offsetInCU: 0x1B67, offset: 0x743D8, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataV15_RepresentationOWOe', symObjAddr: 0x4E18, symBinAddr: 0x9700, symSize: 0x44 }
+  - { offsetInCU: 0x1B7B, offset: 0x743EC, size: 0x8, addend: 0x0, symName: '_$s10Foundation4DataVSgWOe', symObjAddr: 0x4E5C, symBinAddr: 0x9744, symSize: 0x14 }
+  - { offsetInCU: 0x1B8F, offset: 0x74400, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginCMa', symObjAddr: 0x4E70, symBinAddr: 0x9758, symSize: 0x20 }
+  - { offsetInCU: 0x1BA3, offset: 0x74414, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x65CC, symBinAddr: 0xAEB4, symSize: 0x8 }
+  - { offsetInCU: 0x1BB7, offset: 0x74428, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x65D4, symBinAddr: 0xAEBC, symSize: 0x24 }
+  - { offsetInCU: 0x1BCB, offset: 0x7443C, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x65F8, symBinAddr: 0xAEE0, symSize: 0x20 }
+  - { offsetInCU: 0x1BDF, offset: 0x74450, size: 0x8, addend: 0x0, symName: '_$sS2SSysWl', symObjAddr: 0x6618, symBinAddr: 0xAF00, symSize: 0x44 }
+  - { offsetInCU: 0x1BF3, offset: 0x74464, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC0bD033_7D7252D69F84E8D88FBF790A59CD25A7LLyySS_So8NSNumberCSbSdSgAHSbSgSiSgyypSgctFyycfU_TA', symObjAddr: 0x672C, symBinAddr: 0xB014, symSize: 0x3C }
+  - { offsetInCU: 0x1C07, offset: 0x74478, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x6768, symBinAddr: 0xB050, symSize: 0x10 }
+  - { offsetInCU: 0x1C1B, offset: 0x7448C, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x6778, symBinAddr: 0xB060, symSize: 0x8 }
+  - { offsetInCU: 0x1C2F, offset: 0x744A0, size: 0x8, addend: 0x0, symName: '_$sypSgWOd', symObjAddr: 0x6780, symBinAddr: 0xB068, symSize: 0x48 }
+  - { offsetInCU: 0x1E29, offset: 0x7469A, size: 0x8, addend: 0x0, symName: '_$sSD17dictionaryLiteralSDyxq_Gx_q_td_tcfCSS_ypSgTgm5Tf4g_n', symObjAddr: 0x4220, symBinAddr: 0x8B08, symSize: 0x118 }
+  - { offsetInCU: 0x2300, offset: 0x74B71, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC8register4withySo07FlutterF9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x4928, symSize: 0x4 }
+  - { offsetInCU: 0x26B9, offset: 0x74F2A, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF', symObjAddr: 0x34, symBinAddr: 0x495C, symSize: 0x1114 }
+  - { offsetInCU: 0x2E3F, offset: 0x756B0, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC16getFileThumbnail33_7D7252D69F84E8D88FBF790A59CD25A7LLyySS_So8NSNumberCAGyypSgXEtF', symObjAddr: 0x129C, symBinAddr: 0x5BC4, symSize: 0x5C0 }
+  - { offsetInCU: 0x30B6, offset: 0x75927, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC16getMediaInfoJsonySDySSypSgGSSF', symObjAddr: 0x185C, symBinAddr: 0x6184, symSize: 0x4 }
+  - { offsetInCU: 0x30DE, offset: 0x7594F, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC14updateProgress33_7D7252D69F84E8D88FBF790A59CD25A7LL5timerySo7NSTimerC_tF', symObjAddr: 0x1860, symBinAddr: 0x6188, symSize: 0x150 }
+  - { offsetInCU: 0x3269, offset: 0x75ADA, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC0bD033_7D7252D69F84E8D88FBF790A59CD25A7LLyySS_So8NSNumberCSbSdSgAHSbSgSiSgyypSgctF', symObjAddr: 0x1A00, symBinAddr: 0x6328, symSize: 0xAB8 }
+  - { offsetInCU: 0x38A4, offset: 0x76115, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginC0bD033_7D7252D69F84E8D88FBF790A59CD25A7LLyySS_So8NSNumberCSbSdSgAHSbSgSiSgyypSgctFyycfU_', symObjAddr: 0x24B8, symBinAddr: 0x6DE0, symSize: 0x738 }
+  - { offsetInCU: 0x3CA8, offset: 0x76519, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginCACycfC', symObjAddr: 0x2BF0, symBinAddr: 0x7518, symSize: 0x20 }
+  - { offsetInCU: 0x3CBC, offset: 0x7652D, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginCACycfc', symObjAddr: 0x2C10, symBinAddr: 0x7538, symSize: 0x2C }
+  - { offsetInCU: 0x3D15, offset: 0x76586, size: 0x8, addend: 0x0, symName: '_$s14video_compress24SwiftVideoCompressPluginCfD', symObjAddr: 0x2C68, symBinAddr: 0x7590, symSize: 0x30 }
+  - { offsetInCU: 0x3D45, offset: 0x765B6, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x2CF4, symBinAddr: 0x761C, symSize: 0x64 }
+  - { offsetInCU: 0x3D83, offset: 0x765F4, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x2D58, symBinAddr: 0x7680, symSize: 0xE0 }
+  - { offsetInCU: 0x3E13, offset: 0x76684, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV7_insert2at3key5valueys10_HashTableV6BucketV_xnq_ntFSS_ypSgTg5', symObjAddr: 0x2E38, symBinAddr: 0x7760, symSize: 0x6C }
+  - { offsetInCU: 0x3E93, offset: 0x76704, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV12mutatingFind_8isUniques10_HashTableV6BucketV6bucket_Sb5foundtx_SbtFSS_ypSgTg5', symObjAddr: 0x2EA4, symBinAddr: 0x77CC, symSize: 0xD8 }
+  - { offsetInCU: 0x3ED7, offset: 0x76748, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV4copyyyFSS_ypSgTg5', symObjAddr: 0x2F7C, symBinAddr: 0x78A4, symSize: 0x1FC }
+  - { offsetInCU: 0x3F93, offset: 0x76804, size: 0x8, addend: 0x0, symName: '_$ss17_NativeDictionaryV20_copyOrMoveAndResize8capacity12moveElementsySi_SbtFSS_ypSgTg5', symObjAddr: 0x3178, symBinAddr: 0x7AA0, symSize: 0x348 }
+  - { offsetInCU: 0x27, offset: 0x76C4C, size: 0x8, addend: 0x0, symName: '_$s14video_compress7UtilityC11fileManager_WZ', symObjAddr: 0x0, symBinAddr: 0xB0E8, symSize: 0x38 }
+  - { offsetInCU: 0x4B, offset: 0x76C70, size: 0x8, addend: 0x0, symName: '_$s14video_compress7UtilityC11fileManagerSo06NSFileE0CvpZ', symObjAddr: 0x4900, symBinAddr: 0x168F8, symSize: 0x0 }
+  - { offsetInCU: 0x59, offset: 0x76C7E, size: 0x8, addend: 0x0, symName: '_$s14video_compress7UtilityC11fileManager_WZ', symObjAddr: 0x0, symBinAddr: 0xB0E8, symSize: 0x38 }
+  - { offsetInCU: 0x95, offset: 0x76CBA, size: 0x8, addend: 0x0, symName: '_$s14video_compress7UtilityCACycfcTo', symObjAddr: 0x38, symBinAddr: 0xB120, symSize: 0x3C }
+  - { offsetInCU: 0xE6, offset: 0x76D0B, size: 0x8, addend: 0x0, symName: '_$s14video_compress7UtilityC18stripFileExtensionyS2SFZTf4nd_n', symObjAddr: 0x218, symBinAddr: 0xB300, symSize: 0x110 }
+  - { offsetInCU: 0x213, offset: 0x76E38, size: 0x8, addend: 0x0, symName: '_$s14video_compress7UtilityC8basePathSSyFZTf4d_n', symObjAddr: 0x448, symBinAddr: 0xB4AC, symSize: 0x1D4 }
+  - { offsetInCU: 0x2C7, offset: 0x76EEC, size: 0x8, addend: 0x0, symName: '_$s14video_compress7UtilityC10deleteFile_5clearySS_SbtFZTf4nnd_n', symObjAddr: 0x61C, symBinAddr: 0xB680, symSize: 0x2AC }
+  - { offsetInCU: 0x36B, offset: 0x76F90, size: 0x8, addend: 0x0, symName: '_$s14video_compress7UtilityCfETo', symObjAddr: 0xA4, symBinAddr: 0xB18C, symSize: 0x4 }
+  - { offsetInCU: 0x396, offset: 0x76FBB, size: 0x8, addend: 0x0, symName: '_$s14video_compress7UtilityCMa', symObjAddr: 0xA8, symBinAddr: 0xB190, symSize: 0x20 }
+  - { offsetInCU: 0x44D, offset: 0x77072, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tgm5', symObjAddr: 0x184, symBinAddr: 0xB26C, symSize: 0x80 }
+  - { offsetInCU: 0x546, offset: 0x7716B, size: 0x8, addend: 0x0, symName: '_$sSaySSGSayxGSKsWl', symObjAddr: 0x3AC, symBinAddr: 0xB410, symSize: 0x48 }
+  - { offsetInCU: 0x55A, offset: 0x7717F, size: 0x8, addend: 0x0, symName: '_$sSaySSGMa', symObjAddr: 0x3F4, symBinAddr: 0xB458, symSize: 0x54 }
+  - { offsetInCU: 0x71E, offset: 0x77343, size: 0x8, addend: 0x0, symName: '_$s14video_compress7UtilityCfD', symObjAddr: 0x74, symBinAddr: 0xB15C, symSize: 0x30 }
+  - { offsetInCU: 0x779, offset: 0x7739E, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5', symObjAddr: 0xC8, symBinAddr: 0xB1B0, symSize: 0xBC }
+  - { offsetInCU: 0x838, offset: 0x7745D, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSS_Tg5', symObjAddr: 0x204, symBinAddr: 0xB2EC, symSize: 0x14 }
+...

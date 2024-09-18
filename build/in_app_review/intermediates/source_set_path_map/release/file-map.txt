@@ -1,0 +1,15 @@
+dev.britannio.in_app_review-jetified-annotation-experimental-1.1.0-0 /Users/dev_mobile/.gradle/caches/transforms-3/1c0c8867c08732c2fd8d8447808af741/transformed/jetified-annotation-experimental-1.1.0/res
+dev.britannio.in_app_review-core-1.6.0-1 /Users/dev_mobile/.gradle/caches/transforms-3/1f967c44586f056e5e884c5a1159c510/transformed/core-1.6.0/res
+dev.britannio.in_app_review-jetified-core-common-2.0.2-2 /Users/dev_mobile/.gradle/caches/transforms-3/20d46e89406c3a977d6e3c3e7343a198/transformed/jetified-core-common-2.0.2/res
+dev.britannio.in_app_review-jetified-window-java-1.0.0-beta04-3 /Users/dev_mobile/.gradle/caches/transforms-3/5869fc2559a5f85e09c879efce13cefc/transformed/jetified-window-java-1.0.0-beta04/res
+dev.britannio.in_app_review-jetified-window-1.0.0-beta04-4 /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/res
+dev.britannio.in_app_review-jetified-play-services-basement-18.1.0-5 /Users/dev_mobile/.gradle/caches/transforms-3/913a3aaf1c31b50605ef727f769c108f/transformed/jetified-play-services-basement-18.1.0/res
+dev.britannio.in_app_review-jetified-play-services-base-18.2.0-6 /Users/dev_mobile/.gradle/caches/transforms-3/f730b7834bddd15fc80478bec71d7b06/transformed/jetified-play-services-base-18.2.0/res
+dev.britannio.in_app_review-main-7 /Users/dev_mobile/.pub-cache/hosted/pub.dev/in_app_review-2.0.9/android/src/main/res
+dev.britannio.in_app_review-release-8 /Users/dev_mobile/.pub-cache/hosted/pub.dev/in_app_review-2.0.9/android/src/release/res
+dev.britannio.in_app_review-pngs-9 /Users/dev_mobile/coinexcha-app/build/in_app_review/generated/res/pngs/release
+dev.britannio.in_app_review-resValues-10 /Users/dev_mobile/coinexcha-app/build/in_app_review/generated/res/resValues/release
+dev.britannio.in_app_review-rs-11 /Users/dev_mobile/coinexcha-app/build/in_app_review/generated/res/rs/release
+dev.britannio.in_app_review-mergeReleaseResources-12 /Users/dev_mobile/coinexcha-app/build/in_app_review/intermediates/incremental/release/mergeReleaseResources/merged.dir
+dev.britannio.in_app_review-mergeReleaseResources-13 /Users/dev_mobile/coinexcha-app/build/in_app_review/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+dev.britannio.in_app_review-merged_res-14 /Users/dev_mobile/coinexcha-app/build/in_app_review/intermediates/merged_res/release

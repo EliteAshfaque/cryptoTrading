@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">773765153937</string>
+    <string name="google_api_key" translatable="false">AIzaSyCcRMjLB_EYz7y8nmnl98pLERIrflNyEcU</string>
+    <string name="google_app_id" translatable="false">1:773765153937:android:82ce899cc92c1f4de62b30</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCcRMjLB_EYz7y8nmnl98pLERIrflNyEcU</string>
+    <string name="google_storage_bucket" translatable="false">fx-project-9feb7.appspot.com</string>
+    <string name="project_id" translatable="false">fx-project-9feb7</string>
+</resources>

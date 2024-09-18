@@ -1,0 +1,12 @@
+io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-annotation-experimental-1.1.0-0 /Users/dev_mobile/.gradle/caches/transforms-3/1c0c8867c08732c2fd8d8447808af741/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-core-1.6.0-1 /Users/dev_mobile/.gradle/caches/transforms-3/1f967c44586f056e5e884c5a1159c510/transformed/core-1.6.0/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-window-java-1.0.0-beta04-2 /Users/dev_mobile/.gradle/caches/transforms-3/5869fc2559a5f85e09c879efce13cefc/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-jetified-window-1.0.0-beta04-3 /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-main-4 /Users/dev_mobile/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.18/android/src/main/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-release-5 /Users/dev_mobile/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.18/android/src/release/res
+io.flutter.plugins.flutter_plugin_android_lifecycle-pngs-6 /Users/dev_mobile/coinexcha-app/build/flutter_plugin_android_lifecycle/generated/res/pngs/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-resValues-7 /Users/dev_mobile/coinexcha-app/build/flutter_plugin_android_lifecycle/generated/res/resValues/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-rs-8 /Users/dev_mobile/coinexcha-app/build/flutter_plugin_android_lifecycle/generated/res/rs/release
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-9 /Users/dev_mobile/coinexcha-app/build/flutter_plugin_android_lifecycle/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-mergeReleaseResources-10 /Users/dev_mobile/coinexcha-app/build/flutter_plugin_android_lifecycle/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.flutter_plugin_android_lifecycle-merged_res-11 /Users/dev_mobile/coinexcha-app/build/flutter_plugin_android_lifecycle/intermediates/merged_res/release

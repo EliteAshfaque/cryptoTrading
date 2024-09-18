@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "io.flutter.plugins.localauth.local_auth-merged_res-18:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/dev_mobile/.gradle/caches/transforms-3/3fa6b1ce101021a19f86934ba6c154f3/transformed/appcompat-1.2.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "io.flutter.plugins.localauth.local_auth-mergeReleaseResources-16:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/dev_mobile/.gradle/caches/transforms-3/3fa6b1ce101021a19f86934ba6c154f3/transformed/appcompat-1.2.0/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

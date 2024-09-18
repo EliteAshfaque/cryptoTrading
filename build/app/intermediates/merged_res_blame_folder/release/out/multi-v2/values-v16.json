@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.solution.onefx1.app-mergeReleaseResources-38:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/dev_mobile/.gradle/caches/transforms-3/a1c4e38a3df92e2196cc3a96dce43c07/transformed/core-1.10.1/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/Users/dev_mobile/.gradle/caches/transforms-3/bdc6ff973ff1517e567bf8c688c7a910/transformed/appcompat-1.4.2/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}

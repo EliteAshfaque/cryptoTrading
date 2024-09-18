@@ -1,0 +1,12 @@
+com.example.fluttershare.flutter_share-jetified-annotation-experimental-1.1.0-0 /Users/dev_mobile/.gradle/caches/transforms-3/1c0c8867c08732c2fd8d8447808af741/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.fluttershare.flutter_share-core-1.6.0-1 /Users/dev_mobile/.gradle/caches/transforms-3/1f967c44586f056e5e884c5a1159c510/transformed/core-1.6.0/res
+com.example.fluttershare.flutter_share-jetified-window-java-1.0.0-beta04-2 /Users/dev_mobile/.gradle/caches/transforms-3/5869fc2559a5f85e09c879efce13cefc/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.fluttershare.flutter_share-jetified-window-1.0.0-beta04-3 /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/res
+com.example.fluttershare.flutter_share-main-4 /Users/dev_mobile/.pub-cache/hosted/pub.dev/flutter_share-2.0.0/android/src/main/res
+com.example.fluttershare.flutter_share-release-5 /Users/dev_mobile/.pub-cache/hosted/pub.dev/flutter_share-2.0.0/android/src/release/res
+com.example.fluttershare.flutter_share-pngs-6 /Users/dev_mobile/coinexcha-app/build/flutter_share/generated/res/pngs/release
+com.example.fluttershare.flutter_share-resValues-7 /Users/dev_mobile/coinexcha-app/build/flutter_share/generated/res/resValues/release
+com.example.fluttershare.flutter_share-rs-8 /Users/dev_mobile/coinexcha-app/build/flutter_share/generated/res/rs/release
+com.example.fluttershare.flutter_share-mergeReleaseResources-9 /Users/dev_mobile/coinexcha-app/build/flutter_share/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.example.fluttershare.flutter_share-mergeReleaseResources-10 /Users/dev_mobile/coinexcha-app/build/flutter_share/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.example.fluttershare.flutter_share-merged_res-11 /Users/dev_mobile/coinexcha-app/build/flutter_share/intermediates/merged_res/release

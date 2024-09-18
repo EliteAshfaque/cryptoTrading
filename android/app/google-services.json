@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "101928434305",
+    "project_id": "onefx1-f2f63",
+    "storage_bucket": "onefx1-f2f63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101928434305:android:87998527d836d1aaee6b80",
+        "android_client_info": {
+          "package_name": "com.solution.onefx1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJfzag-HnIgq7zIXB1qSkpURoMPSiCFTo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

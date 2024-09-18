@@ -1,0 +1,613 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Flutter",
+        "printedName": "Flutter",
+        "declKind": "Import",
+        "moduleName": "libphonenumber_plugin"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "libphonenumber_plugin"
+      },
+      {
+        "kind": "Import",
+        "name": "PhoneNumberKit",
+        "printedName": "PhoneNumberKit",
+        "declKind": "Import",
+        "moduleName": "libphonenumber_plugin"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SwiftLibphonenumberPlugin",
+        "printedName": "SwiftLibphonenumberPlugin",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "phoneNumberKit",
+            "printedName": "phoneNumberKit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PhoneNumberKit",
+                "printedName": "PhoneNumberKit.PhoneNumberKit",
+                "usr": "s:14PhoneNumberKitAAC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21libphonenumber_plugin25SwiftLibphonenumberPluginC14phoneNumberKit05PhonegH0AECvp",
+            "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginC14phoneNumberKit05PhonegH0AECvp",
+            "moduleName": "libphonenumber_plugin",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PhoneNumberKit",
+                    "printedName": "PhoneNumberKit.PhoneNumberKit",
+                    "usr": "s:14PhoneNumberKitAAC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21libphonenumber_plugin25SwiftLibphonenumberPluginC14phoneNumberKit05PhonegH0AECvg",
+                "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginC14phoneNumberKit05PhonegH0AECvg",
+                "moduleName": "libphonenumber_plugin",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterPluginRegistrar",
+                "printedName": "any Flutter.FlutterPluginRegistrar",
+                "usr": "c:objc(pl)FlutterPluginRegistrar"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@libphonenumber_plugin@objc(cs)SwiftLibphonenumberPlugin(cm)registerWithRegistrar:",
+            "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginC8register4withySo07FlutterE9Registrar_p_tFZ",
+            "moduleName": "libphonenumber_plugin",
+            "static": true,
+            "objc_name": "registerWithRegistrar:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(_:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@libphonenumber_plugin@objc(cs)SwiftLibphonenumberPlugin(im)handleMethodCall:result:",
+            "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginC6handle_6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "libphonenumber_plugin",
+            "isOpen": true,
+            "objc_name": "handleMethodCall:result:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isValidPhoneNumber",
+            "printedName": "isValidPhoneNumber(call:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21libphonenumber_plugin25SwiftLibphonenumberPluginC18isValidPhoneNumber4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginC18isValidPhoneNumber4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "libphonenumber_plugin",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "normalizePhoneNumber",
+            "printedName": "normalizePhoneNumber(call:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21libphonenumber_plugin25SwiftLibphonenumberPluginC20normalizePhoneNumber4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginC20normalizePhoneNumber4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "libphonenumber_plugin",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getRegionInfo",
+            "printedName": "getRegionInfo(call:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21libphonenumber_plugin25SwiftLibphonenumberPluginC13getRegionInfo4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginC13getRegionInfo4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "libphonenumber_plugin",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getNumberType",
+            "printedName": "getNumberType(call:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21libphonenumber_plugin25SwiftLibphonenumberPluginC13getNumberType4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginC13getNumberType4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "libphonenumber_plugin",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "formatAsYouType",
+            "printedName": "formatAsYouType(call:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21libphonenumber_plugin25SwiftLibphonenumberPluginC15formatAsYouType4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginC15formatAsYouType4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "libphonenumber_plugin",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAllCountries",
+            "printedName": "getAllCountries(call:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21libphonenumber_plugin25SwiftLibphonenumberPluginC15getAllCountries4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginC15getAllCountries4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "libphonenumber_plugin",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getFormattedExampleNumber",
+            "printedName": "getFormattedExampleNumber(call:result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterMethodCall",
+                "printedName": "Flutter.FlutterMethodCall",
+                "usr": "c:objc(cs)FlutterMethodCall"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Any?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21libphonenumber_plugin25SwiftLibphonenumberPluginC25getFormattedExampleNumber4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginC25getFormattedExampleNumber4call6resultySo17FlutterMethodCallC_yypSgctF",
+            "moduleName": "libphonenumber_plugin",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SwiftLibphonenumberPlugin",
+                "printedName": "libphonenumber_plugin.SwiftLibphonenumberPlugin",
+                "usr": "c:@M@libphonenumber_plugin@objc(cs)SwiftLibphonenumberPlugin"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@libphonenumber_plugin@objc(cs)SwiftLibphonenumberPlugin(im)init",
+            "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginCACycfc",
+            "moduleName": "libphonenumber_plugin",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@libphonenumber_plugin@objc(cs)SwiftLibphonenumberPlugin",
+        "mangledName": "$s21libphonenumber_plugin25SwiftLibphonenumberPluginC",
+        "moduleName": "libphonenumber_plugin",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dev_mobile\/.pub-cache\/hosted\/pub.dev\/libphonenumber_plugin-0.3.3\/ios\/Classes\/SwiftLibphonenumberPlugin.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6506,
+      "length": 4,
+      "value": "true"
+    }
+  ]
+}

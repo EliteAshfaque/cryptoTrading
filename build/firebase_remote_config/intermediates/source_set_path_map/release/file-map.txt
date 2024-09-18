@@ -1,0 +1,15 @@
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-jetified-annotation-experimental-1.1.0-0 /Users/dev_mobile/.gradle/caches/transforms-3/1c0c8867c08732c2fd8d8447808af741/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-core-1.6.0-1 /Users/dev_mobile/.gradle/caches/transforms-3/1f967c44586f056e5e884c5a1159c510/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-jetified-window-java-1.0.0-beta04-2 /Users/dev_mobile/.gradle/caches/transforms-3/5869fc2559a5f85e09c879efce13cefc/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-jetified-window-1.0.0-beta04-3 /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-jetified-play-services-basement-18.1.0-4 /Users/dev_mobile/.gradle/caches/transforms-3/913a3aaf1c31b50605ef727f769c108f/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-jetified-firebase-common-20.1.2-5 /Users/dev_mobile/.gradle/caches/transforms-3/b098a2b1850a5a60d5cc51e27038c65c/transformed/jetified-firebase-common-20.1.2/res
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-main-6 /Users/dev_mobile/.pub-cache/hosted/pub.dev/firebase_remote_config-2.0.20/android/src/main/res
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-release-7 /Users/dev_mobile/.pub-cache/hosted/pub.dev/firebase_remote_config-2.0.20/android/src/release/res
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-packaged_res-8 /Users/dev_mobile/coinexcha-app/build/firebase_core/intermediates/packaged_res/release
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-pngs-9 /Users/dev_mobile/coinexcha-app/build/firebase_remote_config/generated/res/pngs/release
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-resValues-10 /Users/dev_mobile/coinexcha-app/build/firebase_remote_config/generated/res/resValues/release
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-rs-11 /Users/dev_mobile/coinexcha-app/build/firebase_remote_config/generated/res/rs/release
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-mergeReleaseResources-12 /Users/dev_mobile/coinexcha-app/build/firebase_remote_config/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-mergeReleaseResources-13 /Users/dev_mobile/coinexcha-app/build/firebase_remote_config/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.firebaseremoteconfig.firebase_remote_config-merged_res-14 /Users/dev_mobile/coinexcha-app/build/firebase_remote_config/intermediates/merged_res/release

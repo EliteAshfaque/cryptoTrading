@@ -1,0 +1,553 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.solution.onefx1"
+4    android:versionCode="7"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:3:5-73
+14-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:3:22-71
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:4:5-66
+15-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:4:22-64
+16    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+16-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:5:5-76
+16-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:5:22-74
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:6:5-81
+17-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:6:22-78
+18    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+18-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:7:5-75
+18-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:7:22-72
+19    <uses-permission android:name="android.permission.VIBRATE" />
+19-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:8:5-66
+19-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:8:22-63
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:9:5-78
+20-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:9:22-76
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-68
+21-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:8:22-65
+22    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+22-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-81
+22-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-78
+23    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+23-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-79
+23-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-76
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->[:video_compress] /Users/dev_mobile/coinexcha-app/build/video_compress/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-81
+24-->[:video_compress] /Users/dev_mobile/coinexcha-app/build/video_compress/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-78
+25    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+26    <uses-permission android:name="android.permission.USE_BIOMETRIC" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[androidx.biometric:biometric:1.1.0] /Users/dev_mobile/.gradle/caches/transforms-3/451c5627eb616cce5cb8e2d913d22610/transformed/biometric-1.1.0/AndroidManifest.xml:24:5-72
+26-->[androidx.biometric:biometric:1.1.0] /Users/dev_mobile/.gradle/caches/transforms-3/451c5627eb616cce5cb8e2d913d22610/transformed/biometric-1.1.0/AndroidManifest.xml:24:22-69
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:29:5-82
+27-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:29:22-79
+28
+29    <permission
+29-->[androidx.core:core:1.10.1] /Users/dev_mobile/.gradle/caches/transforms-3/a1c4e38a3df92e2196cc3a96dce43c07/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+30        android:name="com.solution.onefx1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.10.1] /Users/dev_mobile/.gradle/caches/transforms-3/a1c4e38a3df92e2196cc3a96dce43c07/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.10.1] /Users/dev_mobile/.gradle/caches/transforms-3/a1c4e38a3df92e2196cc3a96dce43c07/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.solution.onefx1.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.10.1] /Users/dev_mobile/.gradle/caches/transforms-3/a1c4e38a3df92e2196cc3a96dce43c07/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.10.1] /Users/dev_mobile/.gradle/caches/transforms-3/a1c4e38a3df92e2196cc3a96dce43c07/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+34    <uses-permission android:name="android.permission.CAMERA" /> <!-- Don't require camera, as this requires a rear camera. This allows it to work on the Nexus 7 -->
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:5-65
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:22:22-62
+35    <uses-feature
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:25:5-27:36
+36        android:name="android.hardware.camera"
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:26:9-47
+37        android:required="false" />
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:27:9-33
+38    <uses-feature
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:28:5-30:36
+39        android:name="android.hardware.camera.front"
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:29:9-53
+40        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:30:9-33
+41    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+42    <uses-feature
+42-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:33:5-35:36
+43        android:name="android.hardware.camera.autofocus"
+43-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:34:9-57
+44        android:required="false" />
+44-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:35:9-33
+45    <uses-feature
+45-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:36:5-38:36
+46        android:name="android.hardware.camera.flash"
+46-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:37:9-53
+47        android:required="false" />
+47-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:38:9-33
+48    <uses-feature
+48-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:39:5-41:36
+49        android:name="android.hardware.screen.landscape"
+49-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:40:9-57
+50        android:required="false" />
+50-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:41:9-33
+51    <uses-feature
+51-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:42:5-44:36
+52        android:name="android.hardware.wifi"
+52-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:43:9-45
+53        android:required="false" />
+53-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:44:9-33
+54
+55    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+55-->[com.android.installreferrer:installreferrer:2.2] /Users/dev_mobile/.gradle/caches/transforms-3/73029c59ff1da689bdb4ce5fcada664b/transformed/jetified-installreferrer-2.2/AndroidManifest.xml:9:5-110
+55-->[com.android.installreferrer:installreferrer:2.2] /Users/dev_mobile/.gradle/caches/transforms-3/73029c59ff1da689bdb4ce5fcada664b/transformed/jetified-installreferrer-2.2/AndroidManifest.xml:9:22-107
+56
+57    <application
+57-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:11:5-56:19
+58        android:name="androidx.multidex.MultiDexApplication"
+59        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+59-->[androidx.core:core:1.10.1] /Users/dev_mobile/.gradle/caches/transforms-3/a1c4e38a3df92e2196cc3a96dce43c07/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+60        android:debuggable="true"
+61        android:icon="@mipmap/launcher_icon"
+61-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:13:9-45
+62        android:label="ONEFX" >
+62-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:12:9-30
+63        android:networkSecurityConfig="@xml/network_security_config">
+64        <activity
+64-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:15:9-50:20
+65            android:name="com.solution.onefx1.MainActivity"
+65-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:16:13-60
+66            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+66-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:20:13-163
+67            android:exported="true"
+67-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:24:13-36
+68            android:hardwareAccelerated="true"
+68-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:21:13-47
+69            android:launchMode="singleTop"
+69-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:17:13-43
+70            android:showWhenLocked="true"
+70-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:22:13-42
+71            android:theme="@style/LaunchTheme"
+71-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:18:13-47
+72            android:turnScreenOn="true"
+72-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:23:13-40
+73            android:usesCleartextTraffic="true"
+73-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:19:13-48
+74            android:windowSoftInputMode="adjustResize" >
+74-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:25:13-55
+75
+76            <!--
+77                 Specifies an Android theme to apply to this Activity as soon as
+78                 the Android process has started. This theme is visible to the user
+79                 while the Flutter UI initializes. After that, this theme continues
+80                 to determine the Window background behind the Flutter UI.
+81            -->
+82            <meta-data
+82-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:30:13-33:19
+83                android:name="io.flutter.embedding.android.NormalTheme"
+83-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:31:17-72
+84                android:resource="@style/NormalTheme" />
+84-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:32:17-54
+85            <!--
+86                 Displays an Android View that continues showing the launch screen
+87                 Drawable until Flutter paints its first frame, then this splash
+88                 screen fades out. A splash screen is useful to avoid any visual
+89                 gap between the end of Android's launch screen and the painting of
+90                 Flutter's first frame.
+91            -->
+92            <meta-data
+92-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:39:13-42:19
+93                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+93-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:40:17-81
+94                android:resource="@drawable/launch_background" />
+94-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:41:17-63
+95            <meta-data
+95-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:43:13-45:59
+96                android:name="com.google.firebase.messaging.default_notification_channel_id"
+96-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:44:17-93
+97                android:value="high_importance_channel" />
+97-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:45:17-56
+98
+99            <intent-filter>
+99-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:46:13-49:29
+100                <action android:name="android.intent.action.MAIN" />
+100-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:47:17-68
+100-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:47:25-66
+101
+102                <category android:name="android.intent.category.LAUNCHER" />
+102-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:48:17-76
+102-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:48:27-74
+103            </intent-filter>
+104        </activity>
+105        <!--
+106             Don't delete the meta-data below.
+107             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+108        -->
+109        <meta-data
+109-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:53:9-55:33
+110            android:name="flutterEmbedding"
+110-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:54:13-44
+111            android:value="2" />
+111-->/Users/dev_mobile/coinexcha-app/android/app/src/main/AndroidManifest.xml:55:13-30
+112
+113        <service
+113-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-15:72
+114            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+114-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-107
+115            android:exported="false"
+115-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-37
+116            android:permission="android.permission.BIND_JOB_SERVICE" />
+116-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-69
+117        <service
+117-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-22:19
+118            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+118-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-97
+119            android:exported="false" >
+119-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-37
+120            <intent-filter>
+120-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+121                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+121-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-78
+121-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-75
+122            </intent-filter>
+123        </service>
+124
+125        <receiver
+125-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-31:20
+126            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+126-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-98
+127            android:exported="true"
+127-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-36
+128            android:permission="com.google.android.c2dm.permission.SEND" >
+128-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-73
+129            <intent-filter>
+129-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:29
+130                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+130-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-81
+130-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-78
+131            </intent-filter>
+132        </receiver>
+133
+134        <service
+134-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-37:19
+135            android:name="com.google.firebase.components.ComponentDiscoveryService"
+135-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:33:18-89
+136            android:directBootAware="true"
+136-->[com.google.firebase:firebase-common:20.1.2] /Users/dev_mobile/.gradle/caches/transforms-3/b098a2b1850a5a60d5cc51e27038c65c/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:35:13-43
+137            android:exported="false" >
+137-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:55:13-37
+138            <meta-data
+138-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-36:85
+139                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+139-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:35:17-128
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:36:17-82
+141            <meta-data
+141-->[:firebase_crashlytics] /Users/dev_mobile/coinexcha-app/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+142                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+142-->[:firebase_crashlytics] /Users/dev_mobile/coinexcha-app/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-130
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[:firebase_crashlytics] /Users/dev_mobile/coinexcha-app/build/firebase_crashlytics/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+144            <meta-data
+144-->[:firebase_remote_config] /Users/dev_mobile/coinexcha-app/build/firebase_remote_config/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+145                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firebaseremoteconfig.FlutterFirebaseAppRegistrar"
+145-->[:firebase_remote_config] /Users/dev_mobile/coinexcha-app/build/firebase_remote_config/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-139
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[:firebase_remote_config] /Users/dev_mobile/coinexcha-app/build/firebase_remote_config/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+147            <meta-data
+147-->[:firebase_core] /Users/dev_mobile/coinexcha-app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+148                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+148-->[:firebase_core] /Users/dev_mobile/coinexcha-app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[:firebase_core] /Users/dev_mobile/coinexcha-app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:56:13-58:85
+151                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+151-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:57:17-119
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:58:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-crashlytics:18.2.13] /Users/dev_mobile/.gradle/caches/transforms-3/42b4ffb891dc7330a3b2b0fed50c566a/transformed/jetified-firebase-crashlytics-18.2.13/AndroidManifest.xml:18:13-20:85
+154                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+154-->[com.google.firebase:firebase-crashlytics:18.2.13] /Users/dev_mobile/.gradle/caches/transforms-3/42b4ffb891dc7330a3b2b0fed50c566a/transformed/jetified-firebase-crashlytics-18.2.13/AndroidManifest.xml:19:17-115
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-crashlytics:18.2.13] /Users/dev_mobile/.gradle/caches/transforms-3/42b4ffb891dc7330a3b2b0fed50c566a/transformed/jetified-firebase-crashlytics-18.2.13/AndroidManifest.xml:20:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-config:21.1.2] /Users/dev_mobile/.gradle/caches/transforms-3/ca58660387f70db2204cd8ee3a537c8a/transformed/jetified-firebase-config-21.1.2/AndroidManifest.xml:32:13-34:85
+157                android:name="com.google.firebase.components:com.google.firebase.remoteconfig.RemoteConfigRegistrar"
+157-->[com.google.firebase:firebase-config:21.1.2] /Users/dev_mobile/.gradle/caches/transforms-3/ca58660387f70db2204cd8ee3a537c8a/transformed/jetified-firebase-config-21.1.2/AndroidManifest.xml:33:17-117
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-config:21.1.2] /Users/dev_mobile/.gradle/caches/transforms-3/ca58660387f70db2204cd8ee3a537c8a/transformed/jetified-firebase-config-21.1.2/AndroidManifest.xml:34:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-datatransport:18.1.6] /Users/dev_mobile/.gradle/caches/transforms-3/67a0c9a72a41e8b75ae7a68d05cba080/transformed/jetified-firebase-datatransport-18.1.6/AndroidManifest.xml:28:13-30:85
+160                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+160-->[com.google.firebase:firebase-datatransport:18.1.6] /Users/dev_mobile/.gradle/caches/transforms-3/67a0c9a72a41e8b75ae7a68d05cba080/transformed/jetified-firebase-datatransport-18.1.6/AndroidManifest.xml:29:17-115
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-datatransport:18.1.6] /Users/dev_mobile/.gradle/caches/transforms-3/67a0c9a72a41e8b75ae7a68d05cba080/transformed/jetified-firebase-datatransport-18.1.6/AndroidManifest.xml:30:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-installations:17.0.3] /Users/dev_mobile/.gradle/caches/transforms-3/448ea3020fe4b4a0b3fdb49eedb869df/transformed/jetified-firebase-installations-17.0.3/AndroidManifest.xml:18:13-20:85
+163                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+163-->[com.google.firebase:firebase-installations:17.0.3] /Users/dev_mobile/.gradle/caches/transforms-3/448ea3020fe4b4a0b3fdb49eedb869df/transformed/jetified-firebase-installations-17.0.3/AndroidManifest.xml:19:17-127
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-installations:17.0.3] /Users/dev_mobile/.gradle/caches/transforms-3/448ea3020fe4b4a0b3fdb49eedb869df/transformed/jetified-firebase-installations-17.0.3/AndroidManifest.xml:20:17-82
+165            <meta-data
+165-->[com.google.firebase:firebase-abt:21.0.2] /Users/dev_mobile/.gradle/caches/transforms-3/3103a8207224f9553d1883134649d100/transformed/jetified-firebase-abt-21.0.2/AndroidManifest.xml:13:13-15:85
+166                android:name="com.google.firebase.components:com.google.firebase.abt.component.AbtRegistrar"
+166-->[com.google.firebase:firebase-abt:21.0.2] /Users/dev_mobile/.gradle/caches/transforms-3/3103a8207224f9553d1883134649d100/transformed/jetified-firebase-abt-21.0.2/AndroidManifest.xml:14:17-109
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.firebase:firebase-abt:21.0.2] /Users/dev_mobile/.gradle/caches/transforms-3/3103a8207224f9553d1883134649d100/transformed/jetified-firebase-abt-21.0.2/AndroidManifest.xml:15:17-82
+168        </service>
+169
+170        <provider
+170-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:39:9-43:38
+171            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+171-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-102
+172            android:authorities="com.solution.onefx1.flutterfirebasemessaginginitprovider"
+172-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:41:13-88
+173            android:exported="false"
+173-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:42:13-37
+174            android:initOrder="99" />
+174-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:43:13-35
+175
+176        <receiver
+176-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:40
+177            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+177-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-97
+178            android:exported="false" />
+178-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-37
+179        <receiver
+179-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-26:20
+180            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+180-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-101
+181            android:exported="false" >
+181-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+182            <intent-filter>
+182-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-25:29
+183                <action android:name="android.intent.action.BOOT_COMPLETED" />
+183-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:17-79
+183-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:21:25-76
+184                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+184-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-84
+184-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:22:25-81
+185                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+185-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-82
+185-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:23:25-79
+186                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+186-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:17-82
+186-->[:flutter_local_notifications] /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_manifest/debug/AndroidManifest.xml:24:25-79
+187            </intent-filter>
+188        </receiver>
+189
+190        <provider
+190-->[:image_picker_android] /Users/dev_mobile/coinexcha-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+191            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+191-->[:image_picker_android] /Users/dev_mobile/coinexcha-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-82
+192            android:authorities="com.solution.onefx1.flutter.image_provider"
+192-->[:image_picker_android] /Users/dev_mobile/coinexcha-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-74
+193            android:exported="false"
+193-->[:image_picker_android] /Users/dev_mobile/coinexcha-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+194            android:grantUriPermissions="true" >
+194-->[:image_picker_android] /Users/dev_mobile/coinexcha-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+195            <meta-data
+195-->[:image_picker_android] /Users/dev_mobile/coinexcha-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:75
+196                android:name="android.support.FILE_PROVIDER_PATHS"
+196-->[:image_picker_android] /Users/dev_mobile/coinexcha-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-67
+197                android:resource="@xml/flutter_image_picker_file_paths" />
+197-->[:image_picker_android] /Users/dev_mobile/coinexcha-app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-72
+198        </provider>
+199
+200        <activity
+200-->[:url_launcher_android] /Users/dev_mobile/coinexcha-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
+201            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+201-->[:url_launcher_android] /Users/dev_mobile/coinexcha-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+202            android:exported="false"
+202-->[:url_launcher_android] /Users/dev_mobile/coinexcha-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
+203            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+203-->[:url_launcher_android] /Users/dev_mobile/coinexcha-app/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+204
+205        <uses-library
+205-->[androidx.window:window:1.0.0-beta04] /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+206            android:name="androidx.window.extensions"
+206-->[androidx.window:window:1.0.0-beta04] /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+207            android:required="false" />
+207-->[androidx.window:window:1.0.0-beta04] /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+208        <uses-library
+208-->[androidx.window:window:1.0.0-beta04] /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+209            android:name="androidx.window.sidecar"
+209-->[androidx.window:window:1.0.0-beta04] /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+210            android:required="false" />
+210-->[androidx.window:window:1.0.0-beta04] /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+211
+212        <receiver
+212-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:32:9-39:20
+213            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+213-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:33:13-78
+214            android:exported="true"
+214-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:34:13-36
+215            android:permission="com.google.android.c2dm.permission.SEND" >
+215-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:35:13-73
+216            <intent-filter>
+216-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:29
+217                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+217-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-81
+217-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:29:25-78
+218            </intent-filter>
+219        </receiver>
+220        <!--
+221             FirebaseMessagingService performs security checks at runtime,
+222             but set to not exported to explicitly avoid allowing another app to call it.
+223        -->
+224        <service
+224-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:45:9-52:19
+225            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+225-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:46:13-82
+226            android:directBootAware="true"
+226-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:47:13-43
+227            android:exported="false" >
+227-->[com.google.firebase:firebase-messaging:23.0.8] /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/AndroidManifest.xml:48:13-37
+228            <intent-filter android:priority="-500" >
+228-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-21:29
+229                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+229-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:17-78
+229-->[:firebase_messaging] /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_manifest/debug/AndroidManifest.xml:20:25-75
+230            </intent-filter>
+231        </service>
+232
+233        <activity
+233-->[com.google.android.gms:play-services-auth:21.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/1214c147965d05b6d27b4b9f55349d77/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:23:9-27:75
+234            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+234-->[com.google.android.gms:play-services-auth:21.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/1214c147965d05b6d27b4b9f55349d77/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:24:13-93
+235            android:excludeFromRecents="true"
+235-->[com.google.android.gms:play-services-auth:21.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/1214c147965d05b6d27b4b9f55349d77/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:25:13-46
+236            android:exported="false"
+236-->[com.google.android.gms:play-services-auth:21.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/1214c147965d05b6d27b4b9f55349d77/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:26:13-37
+237            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+237-->[com.google.android.gms:play-services-auth:21.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/1214c147965d05b6d27b4b9f55349d77/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:27:13-72
+238        <!--
+239            Service handling Google Sign-In user revocation. For apps that do not integrate with
+240            Google Sign-In, this service will never be started.
+241        -->
+242        <service
+242-->[com.google.android.gms:play-services-auth:21.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/1214c147965d05b6d27b4b9f55349d77/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:33:9-37:51
+243            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+243-->[com.google.android.gms:play-services-auth:21.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/1214c147965d05b6d27b4b9f55349d77/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:34:13-89
+244            android:exported="true"
+244-->[com.google.android.gms:play-services-auth:21.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/1214c147965d05b6d27b4b9f55349d77/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:35:13-36
+245            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+245-->[com.google.android.gms:play-services-auth:21.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/1214c147965d05b6d27b4b9f55349d77/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:36:13-107
+246            android:visibleToInstantApps="true" />
+246-->[com.google.android.gms:play-services-auth:21.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/1214c147965d05b6d27b4b9f55349d77/transformed/jetified-play-services-auth-21.0.0/AndroidManifest.xml:37:13-48
+247
+248        <activity
+248-->[com.google.android.gms:play-services-base:18.2.0] /Users/dev_mobile/.gradle/caches/transforms-3/f730b7834bddd15fc80478bec71d7b06/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:20:9-22:45
+249            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+249-->[com.google.android.gms:play-services-base:18.2.0] /Users/dev_mobile/.gradle/caches/transforms-3/f730b7834bddd15fc80478bec71d7b06/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:20:19-85
+250            android:exported="false"
+250-->[com.google.android.gms:play-services-base:18.2.0] /Users/dev_mobile/.gradle/caches/transforms-3/f730b7834bddd15fc80478bec71d7b06/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:22:19-43
+251            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+251-->[com.google.android.gms:play-services-base:18.2.0] /Users/dev_mobile/.gradle/caches/transforms-3/f730b7834bddd15fc80478bec71d7b06/transformed/jetified-play-services-base-18.2.0/AndroidManifest.xml:21:19-78
+252
+253        <provider
+253-->[com.google.firebase:firebase-common:20.1.2] /Users/dev_mobile/.gradle/caches/transforms-3/b098a2b1850a5a60d5cc51e27038c65c/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:26:9-31:39
+254            android:name="com.google.firebase.provider.FirebaseInitProvider"
+254-->[com.google.firebase:firebase-common:20.1.2] /Users/dev_mobile/.gradle/caches/transforms-3/b098a2b1850a5a60d5cc51e27038c65c/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:27:13-77
+255            android:authorities="com.solution.onefx1.firebaseinitprovider"
+255-->[com.google.firebase:firebase-common:20.1.2] /Users/dev_mobile/.gradle/caches/transforms-3/b098a2b1850a5a60d5cc51e27038c65c/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:28:13-72
+256            android:directBootAware="true"
+256-->[com.google.firebase:firebase-common:20.1.2] /Users/dev_mobile/.gradle/caches/transforms-3/b098a2b1850a5a60d5cc51e27038c65c/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:29:13-43
+257            android:exported="false"
+257-->[com.google.firebase:firebase-common:20.1.2] /Users/dev_mobile/.gradle/caches/transforms-3/b098a2b1850a5a60d5cc51e27038c65c/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:30:13-37
+258            android:initOrder="100" />
+258-->[com.google.firebase:firebase-common:20.1.2] /Users/dev_mobile/.gradle/caches/transforms-3/b098a2b1850a5a60d5cc51e27038c65c/transformed/jetified-firebase-common-20.1.2/AndroidManifest.xml:31:13-36
+259
+260        <meta-data
+260-->[com.google.android.gms:play-services-basement:18.2.0] /Users/dev_mobile/.gradle/caches/transforms-3/7d02a18bc4e5fb3b0dd177c24e8cb812/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+261            android:name="com.google.android.gms.version"
+261-->[com.google.android.gms:play-services-basement:18.2.0] /Users/dev_mobile/.gradle/caches/transforms-3/7d02a18bc4e5fb3b0dd177c24e8cb812/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+262            android:value="@integer/google_play_services_version" />
+262-->[com.google.android.gms:play-services-basement:18.2.0] /Users/dev_mobile/.gradle/caches/transforms-3/7d02a18bc4e5fb3b0dd177c24e8cb812/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+263
+264        <service
+264-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/8dc5cc1220e0ed01b8972c7c3d6bb3db/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:29:9-35:19
+265            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+265-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/8dc5cc1220e0ed01b8972c7c3d6bb3db/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:30:13-103
+266            android:exported="false" >
+266-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/8dc5cc1220e0ed01b8972c7c3d6bb3db/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:31:13-37
+267            <meta-data
+267-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/8dc5cc1220e0ed01b8972c7c3d6bb3db/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:32:13-34:39
+268                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+268-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/8dc5cc1220e0ed01b8972c7c3d6bb3db/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:33:17-94
+269                android:value="cct" />
+269-->[com.google.android.datatransport:transport-backend-cct:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/8dc5cc1220e0ed01b8972c7c3d6bb3db/transformed/jetified-transport-backend-cct-3.1.7/AndroidManifest.xml:34:17-36
+270        </service>
+271        <service
+271-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/3d1527638e311cc3b7efa5c25d74414e/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:26:9-30:19
+272            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+272-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/3d1527638e311cc3b7efa5c25d74414e/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:27:13-117
+273            android:exported="false"
+273-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/3d1527638e311cc3b7efa5c25d74414e/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:28:13-37
+274            android:permission="android.permission.BIND_JOB_SERVICE" >
+274-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/3d1527638e311cc3b7efa5c25d74414e/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:29:13-69
+275        </service>
+276
+277        <receiver
+277-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/3d1527638e311cc3b7efa5c25d74414e/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:32:9-34:40
+278            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+278-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/3d1527638e311cc3b7efa5c25d74414e/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:33:13-132
+279            android:exported="false" />
+279-->[com.google.android.datatransport:transport-runtime:3.1.7] /Users/dev_mobile/.gradle/caches/transforms-3/3d1527638e311cc3b7efa5c25d74414e/transformed/jetified-transport-runtime-3.1.7/AndroidManifest.xml:34:13-37
+280
+281        <provider
+281-->[androidx.emoji2:emoji2:1.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/8a32e54291f54764fef003508c0c17a1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+282            android:name="androidx.startup.InitializationProvider"
+282-->[androidx.emoji2:emoji2:1.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/8a32e54291f54764fef003508c0c17a1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+283            android:authorities="com.solution.onefx1.androidx-startup"
+283-->[androidx.emoji2:emoji2:1.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/8a32e54291f54764fef003508c0c17a1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+284            android:exported="false" >
+284-->[androidx.emoji2:emoji2:1.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/8a32e54291f54764fef003508c0c17a1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+285            <meta-data
+285-->[androidx.emoji2:emoji2:1.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/8a32e54291f54764fef003508c0c17a1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+286                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+286-->[androidx.emoji2:emoji2:1.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/8a32e54291f54764fef003508c0c17a1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+287                android:value="androidx.startup" />
+287-->[androidx.emoji2:emoji2:1.0.0] /Users/dev_mobile/.gradle/caches/transforms-3/8a32e54291f54764fef003508c0c17a1/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+288            <meta-data
+288-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dev_mobile/.gradle/caches/transforms-3/12768d9caf5d36ebd6177e15dc445ccb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+289                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+289-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dev_mobile/.gradle/caches/transforms-3/12768d9caf5d36ebd6177e15dc445ccb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+290                android:value="androidx.startup" />
+290-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/dev_mobile/.gradle/caches/transforms-3/12768d9caf5d36ebd6177e15dc445ccb/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+291        </provider>
+292
+293        <activity
+293-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:47:9-53:63
+294            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+294-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:48:13-74
+295            android:clearTaskOnLaunch="true"
+295-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:49:13-45
+296            android:screenOrientation="sensorLandscape"
+296-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:50:13-56
+297            android:stateNotNeeded="true"
+297-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:51:13-42
+298            android:theme="@style/zxing_CaptureTheme"
+298-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:52:13-54
+299            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+299-->[com.journeyapps:zxing-android-embedded:4.3.0] /Users/dev_mobile/.gradle/caches/transforms-3/937054953e9a965dabc8176010a245ac/transformed/jetified-zxing-android-embedded-4.3.0/AndroidManifest.xml:53:13-60
+300        <activity
+300-->[com.google.android.play:core-common:2.0.2] /Users/dev_mobile/.gradle/caches/transforms-3/20d46e89406c3a977d6e3c3e7343a198/transformed/jetified-core-common-2.0.2/AndroidManifest.xml:14:9-18:65
+301            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+301-->[com.google.android.play:core-common:2.0.2] /Users/dev_mobile/.gradle/caches/transforms-3/20d46e89406c3a977d6e3c3e7343a198/transformed/jetified-core-common-2.0.2/AndroidManifest.xml:15:13-93
+302            android:exported="false"
+302-->[com.google.android.play:core-common:2.0.2] /Users/dev_mobile/.gradle/caches/transforms-3/20d46e89406c3a977d6e3c3e7343a198/transformed/jetified-core-common-2.0.2/AndroidManifest.xml:16:13-37
+303            android:stateNotNeeded="true"
+303-->[com.google.android.play:core-common:2.0.2] /Users/dev_mobile/.gradle/caches/transforms-3/20d46e89406c3a977d6e3c3e7343a198/transformed/jetified-core-common-2.0.2/AndroidManifest.xml:17:13-42
+304            android:theme="@style/Theme.PlayCore.Transparent" />
+304-->[com.google.android.play:core-common:2.0.2] /Users/dev_mobile/.gradle/caches/transforms-3/20d46e89406c3a977d6e3c3e7343a198/transformed/jetified-core-common-2.0.2/AndroidManifest.xml:18:13-62
+305    </application>
+306
+307</manifest>

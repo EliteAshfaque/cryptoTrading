@@ -1,0 +1,12 @@
+com.example.video_compress-jetified-annotation-experimental-1.1.0-0 /Users/dev_mobile/.gradle/caches/transforms-3/1c0c8867c08732c2fd8d8447808af741/transformed/jetified-annotation-experimental-1.1.0/res
+com.example.video_compress-core-1.6.0-1 /Users/dev_mobile/.gradle/caches/transforms-3/1f967c44586f056e5e884c5a1159c510/transformed/core-1.6.0/res
+com.example.video_compress-jetified-window-java-1.0.0-beta04-2 /Users/dev_mobile/.gradle/caches/transforms-3/5869fc2559a5f85e09c879efce13cefc/transformed/jetified-window-java-1.0.0-beta04/res
+com.example.video_compress-jetified-window-1.0.0-beta04-3 /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/res
+com.example.video_compress-main-4 /Users/dev_mobile/.pub-cache/hosted/pub.dev/video_compress-3.1.2/android/src/main/res
+com.example.video_compress-release-5 /Users/dev_mobile/.pub-cache/hosted/pub.dev/video_compress-3.1.2/android/src/release/res
+com.example.video_compress-pngs-6 /Users/dev_mobile/coinexcha-app/build/video_compress/generated/res/pngs/release
+com.example.video_compress-resValues-7 /Users/dev_mobile/coinexcha-app/build/video_compress/generated/res/resValues/release
+com.example.video_compress-rs-8 /Users/dev_mobile/coinexcha-app/build/video_compress/generated/res/rs/release
+com.example.video_compress-mergeReleaseResources-9 /Users/dev_mobile/coinexcha-app/build/video_compress/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.example.video_compress-mergeReleaseResources-10 /Users/dev_mobile/coinexcha-app/build/video_compress/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.example.video_compress-merged_res-11 /Users/dev_mobile/coinexcha-app/build/video_compress/intermediates/merged_res/release

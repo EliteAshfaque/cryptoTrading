@@ -1,0 +1,40 @@
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Base _$BaseFromJson(Map<String, dynamic> json) => Base(
+      success: json['success'] as bool,
+      result: json['result'],
+    );
+
+Map<String, dynamic> _$BaseToJson(Base instance) => <String, dynamic>{
+      'success': instance.success,
+      'result': instance.result,
+    };
+
+Result _$ResultFromJson(Map<String, dynamic> json) => Result(
+      message: json['message'],
+    );
+
+Map<String, dynamic> _$ResultToJson(Result instance) => <String, dynamic>{
+      'message': instance.message,
+    };
+
+ErrorBase _$ErrorBaseFromJson(Map<String, dynamic> json) => ErrorBase(
+      success: json['success'] as bool,
+      result: ErrorResult.fromJson(json['result'] as Map<String, dynamic>),
+    );
+
+Map<String, dynamic> _$ErrorBaseToJson(ErrorBase instance) => <String, dynamic>{
+      'success': instance.success,
+      'result': instance.result,
+    };
+
+ErrorResult _$ErrorResultFromJson(Map<String, dynamic> json) => ErrorResult(
+      error: json['error'] as String,
+    );
+
+Map<String, dynamic> _$ErrorResultToJson(ErrorResult instance) =>
+    <String, dynamic>{
+      'error': instance.error,
+    };

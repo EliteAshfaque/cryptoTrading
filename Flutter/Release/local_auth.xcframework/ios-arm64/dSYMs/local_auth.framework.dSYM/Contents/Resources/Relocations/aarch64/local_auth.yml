@@ -1,0 +1,36 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/dev_mobile/coinexcha-app/Flutter/Release/iphoneos/Release-iphoneos/local_auth/local_auth.framework/local_auth'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x57B8D, size: 0x8, addend: 0x0, symName: _local_authVersionString, symObjAddr: 0x0, symBinAddr: 0x5960, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x57BC2, size: 0x8, addend: 0x0, symName: _local_authVersionNumber, symObjAddr: 0x28, symBinAddr: 0x5988, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x57BFF, size: 0x8, addend: 0x0, symName: '+[FLTLocalAuthPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xB0 }
+  - { offsetInCU: 0xC1, offset: 0x57C99, size: 0x8, addend: 0x0, symName: '+[FLTLocalAuthPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xB0 }
+  - { offsetInCU: 0x120, offset: 0x57CF8, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin handleMethodCall:result:]', symObjAddr: 0xB0, symBinAddr: 0x40B0, symSize: 0x1C8 }
+  - { offsetInCU: 0x1B5, offset: 0x57D8D, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin setAuthContextOverrides:]', symObjAddr: 0x278, symBinAddr: 0x4278, symSize: 0x30 }
+  - { offsetInCU: 0x1F8, offset: 0x57DD0, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin createAuthContext]', symObjAddr: 0x2A8, symBinAddr: 0x42A8, symSize: 0x64 }
+  - { offsetInCU: 0x24E, offset: 0x57E26, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin alertMessage:firstButton:flutterResult:additionalButton:]', symObjAddr: 0x30C, symBinAddr: 0x430C, symSize: 0x220 }
+  - { offsetInCU: 0x2FC, offset: 0x57ED4, size: 0x8, addend: 0x0, symName: '___78-[FLTLocalAuthPlugin alertMessage:firstButton:flutterResult:additionalButton:]_block_invoke', symObjAddr: 0x52C, symBinAddr: 0x452C, symSize: 0x4C }
+  - { offsetInCU: 0x35E, offset: 0x57F36, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32b, symObjAddr: 0x578, symBinAddr: 0x4578, symSize: 0x10 }
+  - { offsetInCU: 0x387, offset: 0x57F5F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s, symObjAddr: 0x588, symBinAddr: 0x4588, symSize: 0x8 }
+  - { offsetInCU: 0x3A6, offset: 0x57F7E, size: 0x8, addend: 0x0, symName: '___78-[FLTLocalAuthPlugin alertMessage:firstButton:flutterResult:additionalButton:]_block_invoke.17', symObjAddr: 0x590, symBinAddr: 0x4590, symSize: 0xC0 }
+  - { offsetInCU: 0x427, offset: 0x57FFF, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin getAvailableBiometrics:]', symObjAddr: 0x650, symBinAddr: 0x4650, symSize: 0x11C }
+  - { offsetInCU: 0x4B5, offset: 0x5808D, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin authenticateWithBiometrics:withFlutterResult:]', symObjAddr: 0x76C, symBinAddr: 0x476C, symSize: 0x200 }
+  - { offsetInCU: 0x528, offset: 0x58100, size: 0x8, addend: 0x0, symName: '___67-[FLTLocalAuthPlugin authenticateWithBiometrics:withFlutterResult:]_block_invoke', symObjAddr: 0x96C, symBinAddr: 0x496C, symSize: 0xC4 }
+  - { offsetInCU: 0x5D7, offset: 0x581AF, size: 0x8, addend: 0x0, symName: '___67-[FLTLocalAuthPlugin authenticateWithBiometrics:withFlutterResult:]_block_invoke_2', symObjAddr: 0xA30, symBinAddr: 0x4A30, symSize: 0x14 }
+  - { offsetInCU: 0x656, offset: 0x5822E, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48s56b, symObjAddr: 0xA44, symBinAddr: 0x4A44, symSize: 0x44 }
+  - { offsetInCU: 0x67F, offset: 0x58257, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s56s, symObjAddr: 0xA88, symBinAddr: 0x4A88, symSize: 0x38 }
+  - { offsetInCU: 0x69E, offset: 0x58276, size: 0x8, addend: 0x0, symName: ___copy_helper_block_e8_32s40s48b, symObjAddr: 0xAC0, symBinAddr: 0x4AC0, symSize: 0x3C }
+  - { offsetInCU: 0x6C7, offset: 0x5829F, size: 0x8, addend: 0x0, symName: ___destroy_helper_block_e8_32s40s48s, symObjAddr: 0xAFC, symBinAddr: 0x4AFC, symSize: 0x30 }
+  - { offsetInCU: 0x6E6, offset: 0x582BE, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin authenticate:withFlutterResult:]', symObjAddr: 0xB2C, symBinAddr: 0x4B2C, symSize: 0x200 }
+  - { offsetInCU: 0x759, offset: 0x58331, size: 0x8, addend: 0x0, symName: '___53-[FLTLocalAuthPlugin authenticate:withFlutterResult:]_block_invoke', symObjAddr: 0xD2C, symBinAddr: 0x4D2C, symSize: 0xC4 }
+  - { offsetInCU: 0x7EA, offset: 0x583C2, size: 0x8, addend: 0x0, symName: '___53-[FLTLocalAuthPlugin authenticate:withFlutterResult:]_block_invoke_2', symObjAddr: 0xDF0, symBinAddr: 0x4DF0, symSize: 0x14 }
+  - { offsetInCU: 0x869, offset: 0x58441, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin handleAuthReplyWithSuccess:error:flutterArguments:flutterResult:]', symObjAddr: 0xE04, symBinAddr: 0x4E04, symSize: 0x154 }
+  - { offsetInCU: 0x8F7, offset: 0x584CF, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin handleErrors:flutterArguments:withFlutterResult:]', symObjAddr: 0xF58, symBinAddr: 0x4F58, symSize: 0x24C }
+  - { offsetInCU: 0x985, offset: 0x5855D, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin applicationDidBecomeActive:]', symObjAddr: 0x11A4, symBinAddr: 0x51A4, symSize: 0x98 }
+  - { offsetInCU: 0x9C4, offset: 0x5859C, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin lastCallArgs]', symObjAddr: 0x123C, symBinAddr: 0x523C, symSize: 0x8 }
+  - { offsetInCU: 0x9FB, offset: 0x585D3, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin setLastCallArgs:]', symObjAddr: 0x1244, symBinAddr: 0x5244, symSize: 0x8 }
+  - { offsetInCU: 0xA3A, offset: 0x58612, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin lastResult]', symObjAddr: 0x124C, symBinAddr: 0x524C, symSize: 0x8 }
+  - { offsetInCU: 0xA71, offset: 0x58649, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin setLastResult:]', symObjAddr: 0x1254, symBinAddr: 0x5254, symSize: 0x8 }
+  - { offsetInCU: 0xAB0, offset: 0x58688, size: 0x8, addend: 0x0, symName: '-[FLTLocalAuthPlugin .cxx_destruct]', symObjAddr: 0x125C, symBinAddr: 0x525C, symSize: 0x3C }
+...

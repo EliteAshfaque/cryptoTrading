@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/dev_mobile/coinexcha-app/Flutter/Profile/iphoneos/Profile-iphoneos/in_app_review/in_app_review.framework/in_app_review'
+relocations:
+  - { offsetInCU: 0x33, offset: 0x4B87, size: 0x8, addend: 0x0, symName: _in_app_reviewVersionString, symObjAddr: 0x0, symBinAddr: 0x4FF8, symSize: 0x0 }
+  - { offsetInCU: 0x67, offset: 0x4BBB, size: 0x8, addend: 0x0, symName: _in_app_reviewVersionNumber, symObjAddr: 0x30, symBinAddr: 0x5028, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x4BF7, size: 0x8, addend: 0x0, symName: '+[InAppReviewPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
+  - { offsetInCU: 0x85, offset: 0x4C55, size: 0x8, addend: 0x0, symName: '+[InAppReviewPlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xA4 }
+  - { offsetInCU: 0xDE, offset: 0x4CAE, size: 0x8, addend: 0x0, symName: '-[InAppReviewPlugin handleMethodCall:result:]', symObjAddr: 0xA4, symBinAddr: 0x40A4, symSize: 0x18C }
+  - { offsetInCU: 0x13E, offset: 0x4D0E, size: 0x8, addend: 0x0, symName: '-[InAppReviewPlugin requestReview:]', symObjAddr: 0x230, symBinAddr: 0x4230, symSize: 0xC4 }
+  - { offsetInCU: 0x1C8, offset: 0x4D98, size: 0x8, addend: 0x0, symName: '-[InAppReviewPlugin findActiveScene]', symObjAddr: 0x2F4, symBinAddr: 0x42F4, symSize: 0x130 }
+  - { offsetInCU: 0x20D, offset: 0x4DDD, size: 0x8, addend: 0x0, symName: '-[InAppReviewPlugin isAvailable:]', symObjAddr: 0x424, symBinAddr: 0x4424, symSize: 0x70 }
+  - { offsetInCU: 0x264, offset: 0x4E34, size: 0x8, addend: 0x0, symName: '-[InAppReviewPlugin openStoreListingWithStoreId:result:]', symObjAddr: 0x494, symBinAddr: 0x4494, symSize: 0x150 }
+  - { offsetInCU: 0x2FC, offset: 0x4ECC, size: 0x8, addend: 0x0, symName: '-[InAppReviewPlugin logMessage:]', symObjAddr: 0x5E4, symBinAddr: 0x45E4, symSize: 0x28 }
+  - { offsetInCU: 0x337, offset: 0x4F07, size: 0x8, addend: 0x0, symName: '-[InAppReviewPlugin logMessage:details:]', symObjAddr: 0x60C, symBinAddr: 0x460C, symSize: 0x28 }
+...

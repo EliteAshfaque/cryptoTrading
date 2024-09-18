@@ -1,0 +1,17 @@
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-play-services-base-18.0.1-0 /Users/dev_mobile/.gradle/caches/transforms-3/17fdfae64ad6f617fc909f8b00bc5568/transformed/jetified-play-services-base-18.0.1/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-annotation-experimental-1.1.0-1 /Users/dev_mobile/.gradle/caches/transforms-3/1c0c8867c08732c2fd8d8447808af741/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-core-1.6.0-2 /Users/dev_mobile/.gradle/caches/transforms-3/1f967c44586f056e5e884c5a1159c510/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-firebase-messaging-23.0.8-3 /Users/dev_mobile/.gradle/caches/transforms-3/57191687bf89e9a928315398b676573f/transformed/jetified-firebase-messaging-23.0.8/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-window-java-1.0.0-beta04-4 /Users/dev_mobile/.gradle/caches/transforms-3/5869fc2559a5f85e09c879efce13cefc/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-window-1.0.0-beta04-5 /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-play-services-basement-18.1.0-6 /Users/dev_mobile/.gradle/caches/transforms-3/913a3aaf1c31b50605ef727f769c108f/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-jetified-firebase-common-20.1.2-7 /Users/dev_mobile/.gradle/caches/transforms-3/b098a2b1850a5a60d5cc51e27038c65c/transformed/jetified-firebase-common-20.1.2/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-main-8 /Users/dev_mobile/.pub-cache/hosted/pub.dev/firebase_messaging-12.0.3/android/src/main/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-release-9 /Users/dev_mobile/.pub-cache/hosted/pub.dev/firebase_messaging-12.0.3/android/src/release/res
+io.flutter.plugins.firebase.messaging.firebase_messaging-packaged_res-10 /Users/dev_mobile/coinexcha-app/build/firebase_core/intermediates/packaged_res/release
+io.flutter.plugins.firebase.messaging.firebase_messaging-pngs-11 /Users/dev_mobile/coinexcha-app/build/firebase_messaging/generated/res/pngs/release
+io.flutter.plugins.firebase.messaging.firebase_messaging-resValues-12 /Users/dev_mobile/coinexcha-app/build/firebase_messaging/generated/res/resValues/release
+io.flutter.plugins.firebase.messaging.firebase_messaging-rs-13 /Users/dev_mobile/coinexcha-app/build/firebase_messaging/generated/res/rs/release
+io.flutter.plugins.firebase.messaging.firebase_messaging-mergeReleaseResources-14 /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.messaging.firebase_messaging-mergeReleaseResources-15 /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.messaging.firebase_messaging-merged_res-16 /Users/dev_mobile/coinexcha-app/build/firebase_messaging/intermediates/merged_res/release

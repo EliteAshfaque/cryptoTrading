@@ -1,0 +1,12 @@
+name.avioli.unilinks.uni_links-jetified-annotation-experimental-1.1.0-0 /Users/dev_mobile/.gradle/caches/transforms-3/1c0c8867c08732c2fd8d8447808af741/transformed/jetified-annotation-experimental-1.1.0/res
+name.avioli.unilinks.uni_links-core-1.6.0-1 /Users/dev_mobile/.gradle/caches/transforms-3/1f967c44586f056e5e884c5a1159c510/transformed/core-1.6.0/res
+name.avioli.unilinks.uni_links-jetified-window-java-1.0.0-beta04-2 /Users/dev_mobile/.gradle/caches/transforms-3/5869fc2559a5f85e09c879efce13cefc/transformed/jetified-window-java-1.0.0-beta04/res
+name.avioli.unilinks.uni_links-jetified-window-1.0.0-beta04-3 /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/res
+name.avioli.unilinks.uni_links-main-4 /Users/dev_mobile/.pub-cache/hosted/pub.dev/uni_links-0.5.1/android/src/main/res
+name.avioli.unilinks.uni_links-release-5 /Users/dev_mobile/.pub-cache/hosted/pub.dev/uni_links-0.5.1/android/src/release/res
+name.avioli.unilinks.uni_links-pngs-6 /Users/dev_mobile/coinexcha-app/build/uni_links/generated/res/pngs/release
+name.avioli.unilinks.uni_links-resValues-7 /Users/dev_mobile/coinexcha-app/build/uni_links/generated/res/resValues/release
+name.avioli.unilinks.uni_links-rs-8 /Users/dev_mobile/coinexcha-app/build/uni_links/generated/res/rs/release
+name.avioli.unilinks.uni_links-mergeReleaseResources-9 /Users/dev_mobile/coinexcha-app/build/uni_links/intermediates/incremental/release/mergeReleaseResources/merged.dir
+name.avioli.unilinks.uni_links-mergeReleaseResources-10 /Users/dev_mobile/coinexcha-app/build/uni_links/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+name.avioli.unilinks.uni_links-merged_res-11 /Users/dev_mobile/coinexcha-app/build/uni_links/intermediates/merged_res/release

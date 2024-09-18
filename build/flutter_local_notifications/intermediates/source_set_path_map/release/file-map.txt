@@ -1,0 +1,13 @@
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-annotation-experimental-1.1.0-0 /Users/dev_mobile/.gradle/caches/transforms-3/1c0c8867c08732c2fd8d8447808af741/transformed/jetified-annotation-experimental-1.1.0/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-core-1.6.0-1 /Users/dev_mobile/.gradle/caches/transforms-3/1f967c44586f056e5e884c5a1159c510/transformed/core-1.6.0/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-window-java-1.0.0-beta04-2 /Users/dev_mobile/.gradle/caches/transforms-3/5869fc2559a5f85e09c879efce13cefc/transformed/jetified-window-java-1.0.0-beta04/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-jetified-window-1.0.0-beta04-3 /Users/dev_mobile/.gradle/caches/transforms-3/8dfa6d504498227b48864c498b2e750a/transformed/jetified-window-1.0.0-beta04/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-media-1.1.0-4 /Users/dev_mobile/.gradle/caches/transforms-3/c1f10ccb5fabe7c8174e17073b9a3e61/transformed/media-1.1.0/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-main-5 /Users/dev_mobile/.pub-cache/hosted/pub.dev/flutter_local_notifications-9.9.1/android/src/main/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-release-6 /Users/dev_mobile/.pub-cache/hosted/pub.dev/flutter_local_notifications-9.9.1/android/src/release/res
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-pngs-7 /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/generated/res/pngs/release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-resValues-8 /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/generated/res/resValues/release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-rs-9 /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/generated/res/rs/release
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-10 /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-mergeReleaseResources-11 /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.dexterous.flutterlocalnotifications.flutter_local_notifications-merged_res-12 /Users/dev_mobile/coinexcha-app/build/flutter_local_notifications/intermediates/merged_res/release

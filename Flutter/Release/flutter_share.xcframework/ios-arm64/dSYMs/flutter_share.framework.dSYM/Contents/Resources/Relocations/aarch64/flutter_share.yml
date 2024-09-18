@@ -1,0 +1,59 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/dev_mobile/coinexcha-app/Flutter/Release/iphoneos/Release-iphoneos/flutter_share/flutter_share.framework/flutter_share'
+relocations:
+  - { offsetInCU: 0x34, offset: 0x5B845, size: 0x8, addend: 0x0, symName: _flutter_shareVersionString, symObjAddr: 0x0, symBinAddr: 0xA830, symSize: 0x0 }
+  - { offsetInCU: 0x69, offset: 0x5B87A, size: 0x8, addend: 0x0, symName: _flutter_shareVersionNumber, symObjAddr: 0x30, symBinAddr: 0xA860, symSize: 0x0 }
+  - { offsetInCU: 0x27, offset: 0x5B8B7, size: 0x8, addend: 0x0, symName: '+[FlutterSharePlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0x91, offset: 0x5B921, size: 0x8, addend: 0x0, symName: '+[FlutterSharePlugin registerWithRegistrar:]', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xC }
+  - { offsetInCU: 0xBA, offset: 0x5BA48, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginC8register4withySo0dF9Registrar_p_tFZTo', symObjAddr: 0x11C, symBinAddr: 0x4128, symSize: 0xF0 }
+  - { offsetInCU: 0x19E, offset: 0x5BB2C, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginC6handle_6resultySo0D10MethodCallC_yypSgctFTo', symObjAddr: 0x488, symBinAddr: 0x4494, symSize: 0x7C }
+  - { offsetInCU: 0x201, offset: 0x5BB8F, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginCACycfcTo', symObjAddr: 0x170C, symBinAddr: 0x5718, symSize: 0x4C }
+  - { offsetInCU: 0x23C, offset: 0x5BBCA, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginC0B4File4callSbSo0D10MethodCallC_tFTf4nd_n', symObjAddr: 0x22B8, symBinAddr: 0x62C4, symSize: 0xC08 }
+  - { offsetInCU: 0x6F8, offset: 0x5C086, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginC6handle_6resultySo0D10MethodCallC_yypSgctF015$syXlSgIeyBy_ypM7Iegn_TRyXlSgIeyBy_Tf1ncn_nTf4nng_n', symObjAddr: 0x33BC, symBinAddr: 0x73C8, symSize: 0x3B0 }
+  - { offsetInCU: 0x87D, offset: 0x5C20B, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginCMa', symObjAddr: 0xFC, symBinAddr: 0x4108, symSize: 0x20 }
+  - { offsetInCU: 0x89C, offset: 0x5C22A, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x438, symBinAddr: 0x4444, symSize: 0x40 }
+  - { offsetInCU: 0x8B0, offset: 0x5C23E, size: 0x8, addend: 0x0, symName: '_$sypSgIegn_SgWOe', symObjAddr: 0x478, symBinAddr: 0x4484, symSize: 0x10 }
+  - { offsetInCU: 0x8C4, offset: 0x5C252, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TR', symObjAddr: 0x504, symBinAddr: 0x4510, symSize: 0xD0 }
+  - { offsetInCU: 0xC88, offset: 0x5C616, size: 0x8, addend: 0x0, symName: '_$sIeg_IeyB_TR', symObjAddr: 0x15E0, symBinAddr: 0x55EC, symSize: 0x2C }
+  - { offsetInCU: 0xCA0, offset: 0x5C62E, size: 0x8, addend: 0x0, symName: '_$sSo14UIActivityTypeaSgSbSayypGSgs5Error_pSgIeggygg_ACSbSo7NSArrayCSgSo7NSErrorCSgIeyByyyy_TR', symObjAddr: 0x1610, symBinAddr: 0x561C, symSize: 0xB4 }
+  - { offsetInCU: 0xCB8, offset: 0x5C646, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginCfETo', symObjAddr: 0x1764, symBinAddr: 0x5770, symSize: 0x14 }
+  - { offsetInCU: 0xD09, offset: 0x5C697, size: 0x8, addend: 0x0, symName: '_$s13flutter_share25TransparentViewControllerC11viewDidLoadyyFTo', symObjAddr: 0x1778, symBinAddr: 0x5784, symSize: 0xCC }
+  - { offsetInCU: 0xD7E, offset: 0x5C70C, size: 0x8, addend: 0x0, symName: '_$s13flutter_share25TransparentViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfcTo', symObjAddr: 0x1844, symBinAddr: 0x5850, symSize: 0xAC }
+  - { offsetInCU: 0xDD8, offset: 0x5C766, size: 0x8, addend: 0x0, symName: '_$s13flutter_share25TransparentViewControllerC5coderACSgSo7NSCoderC_tcfcTo', symObjAddr: 0x18F0, symBinAddr: 0x58FC, symSize: 0x44 }
+  - { offsetInCU: 0xE5C, offset: 0x5C7EA, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlFSo8NSObjectC_Tgm5', symObjAddr: 0x19D4, symBinAddr: 0x59E0, symSize: 0x64 }
+  - { offsetInCU: 0xF5A, offset: 0x5C8E8, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCyp_Tgm5', symObjAddr: 0x1B14, symBinAddr: 0x5B20, symSize: 0x80 }
+  - { offsetInCU: 0xFDD, offset: 0x5C96B, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSo8NSObjectC_Tgm5', symObjAddr: 0x1B94, symBinAddr: 0x5BA0, symSize: 0x88 }
+  - { offsetInCU: 0x1060, offset: 0x5C9EE, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSS_Tgm5', symObjAddr: 0x1C1C, symBinAddr: 0x5C28, symSize: 0x80 }
+  - { offsetInCU: 0x12AB, offset: 0x5CC39, size: 0x8, addend: 0x0, symName: '_$sypSgWOb', symObjAddr: 0x2EC0, symBinAddr: 0x6ECC, symSize: 0x48 }
+  - { offsetInCU: 0x12BF, offset: 0x5CC4D, size: 0x8, addend: 0x0, symName: '_$sSaySSGMa', symObjAddr: 0x2F44, symBinAddr: 0x6F50, symSize: 0x54 }
+  - { offsetInCU: 0x12D3, offset: 0x5CC61, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginC0B04callSbSo0D10MethodCallC_tFyyScMYccfU_TA', symObjAddr: 0x2FC4, symBinAddr: 0x6FD0, symSize: 0x24C }
+  - { offsetInCU: 0x137E, offset: 0x5CD0C, size: 0x8, addend: 0x0, symName: _block_copy_helper, symObjAddr: 0x3210, symBinAddr: 0x721C, symSize: 0x10 }
+  - { offsetInCU: 0x1392, offset: 0x5CD20, size: 0x8, addend: 0x0, symName: _block_destroy_helper, symObjAddr: 0x3220, symBinAddr: 0x722C, symSize: 0x8 }
+  - { offsetInCU: 0x13A6, offset: 0x5CD34, size: 0x8, addend: 0x0, symName: '_$sSay8Dispatch0A13WorkItemFlagsVGMa', symObjAddr: 0x3268, symBinAddr: 0x7274, symSize: 0x54 }
+  - { offsetInCU: 0x13BA, offset: 0x5CD48, size: 0x8, addend: 0x0, symName: '_$sypSgWOc', symObjAddr: 0x32F4, symBinAddr: 0x7300, symSize: 0x48 }
+  - { offsetInCU: 0x13CE, offset: 0x5CD5C, size: 0x8, addend: 0x0, symName: '_$s13flutter_share25TransparentViewControllerCMa', symObjAddr: 0x339C, symBinAddr: 0x73A8, symSize: 0x20 }
+  - { offsetInCU: 0x13ED, offset: 0x5CD7B, size: 0x8, addend: 0x0, symName: '_$syXlSgIeyBy_ypSgIegn_TRTA', symObjAddr: 0x3790, symBinAddr: 0x779C, symSize: 0x8 }
+  - { offsetInCU: 0x1401, offset: 0x5CD8F, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_0, symObjAddr: 0x3798, symBinAddr: 0x77A4, symSize: 0x24 }
+  - { offsetInCU: 0x1415, offset: 0x5CDA3, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_0, symObjAddr: 0x37BC, symBinAddr: 0x77C8, symSize: 0x20 }
+  - { offsetInCU: 0x1429, offset: 0x5CDB7, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginC19presentActivityView33_FA2B6ED49D6AD6ADE2EC5B92351C0A38LL08activityI10ControllerySo010UIActivityiU0C_tFySo0V4TypeaSg_SbSayypGSgs5Error_pSgtcfU_TA', symObjAddr: 0x3800, symBinAddr: 0x780C, symSize: 0xB8 }
+  - { offsetInCU: 0x145D, offset: 0x5CDEB, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginC19presentActivityView33_FA2B6ED49D6AD6ADE2EC5B92351C0A38LL08activityI10ControllerySo010UIActivityiU0C_tFyycfU0_TA', symObjAddr: 0x38E4, symBinAddr: 0x78F0, symSize: 0x6C }
+  - { offsetInCU: 0x149B, offset: 0x5CE29, size: 0x8, addend: 0x0, symName: '_$sypWOb', symObjAddr: 0x3950, symBinAddr: 0x795C, symSize: 0x10 }
+  - { offsetInCU: 0x14AF, offset: 0x5CE3D, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginC0B4File4callSbSo0D10MethodCallC_tFyyScMYccfU_TA', symObjAddr: 0x3984, symBinAddr: 0x7990, symSize: 0xF0 }
+  - { offsetInCU: 0x1657, offset: 0x5CFE5, size: 0x8, addend: 0x0, symName: '_$ss15_arrayForceCastySayq_GSayxGr0_lFSo8NSObjectC_ypTg5', symObjAddr: 0x1200, symBinAddr: 0x520C, symSize: 0x28C }
+  - { offsetInCU: 0x1C04, offset: 0x5D592, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginC8register4withySo0dF9Registrar_p_tFZ', symObjAddr: 0x0, symBinAddr: 0x400C, symSize: 0xDC }
+  - { offsetInCU: 0x1C6F, offset: 0x5D5FD, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginCACycfC', symObjAddr: 0xDC, symBinAddr: 0x40E8, symSize: 0x20 }
+  - { offsetInCU: 0x1CD5, offset: 0x5D663, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginC6handle_6resultySo0D10MethodCallC_yypSgctF', symObjAddr: 0x20C, symBinAddr: 0x4218, symSize: 0x22C }
+  - { offsetInCU: 0x1F8B, offset: 0x5D919, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginC0B04callSbSo0D10MethodCallC_tF', symObjAddr: 0x5D4, symBinAddr: 0x45E0, symSize: 0xC2C }
+  - { offsetInCU: 0x25AE, offset: 0x5DF3C, size: 0x8, addend: 0x0, symName: '_$sSo13UIApplicationC13flutter_shareE17topViewController10controllerSo06UIViewF0CSgAH_tFZ', symObjAddr: 0x148C, symBinAddr: 0x5498, symSize: 0x154 }
+  - { offsetInCU: 0x2619, offset: 0x5DFA7, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginC0B4File4callSbSo0D10MethodCallC_tF', symObjAddr: 0x160C, symBinAddr: 0x5618, symSize: 0x4 }
+  - { offsetInCU: 0x2648, offset: 0x5DFD6, size: 0x8, addend: 0x0, symName: '_$s13flutter_share23SwiftFlutterSharePluginCACycfc', symObjAddr: 0x16C4, symBinAddr: 0x56D0, symSize: 0x48 }
+  - { offsetInCU: 0x2724, offset: 0x5E0B2, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFSS_Tg5', symObjAddr: 0x1970, symBinAddr: 0x597C, symSize: 0x64 }
+  - { offsetInCU: 0x2768, offset: 0x5E0F6, size: 0x8, addend: 0x0, symName: '_$ss15ContiguousArrayV16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtFyp_Tg5', symObjAddr: 0x1A38, symBinAddr: 0x5A44, symSize: 0x1C }
+  - { offsetInCU: 0x27A6, offset: 0x5E134, size: 0x8, addend: 0x0, symName: '_$ss22_ContiguousArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFyp_Tg5', symObjAddr: 0x1A54, symBinAddr: 0x5A60, symSize: 0xC0 }
+  - { offsetInCU: 0x286C, offset: 0x5E1FA, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSo8NSObjectC_Tg5', symObjAddr: 0x1C9C, symBinAddr: 0x5CA8, symSize: 0x170 }
+  - { offsetInCU: 0x29D8, offset: 0x5E366, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV20_consumeAndCreateNew14bufferIsUnique15minimumCapacity13growForAppendAByxGSb_SiSbtFSS_Tg5', symObjAddr: 0x1E0C, symBinAddr: 0x5E18, symSize: 0xBC }
+  - { offsetInCU: 0x2AB3, offset: 0x5E441, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV13_copyContents8subRange12initializingSpyxGSnySiG_AFtFSo8NSObjectC_Tg5', symObjAddr: 0x1EC8, symBinAddr: 0x5ED4, symSize: 0x11C }
+  - { offsetInCU: 0x2B97, offset: 0x5E525, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFSS_Tg5', symObjAddr: 0x1FE4, symBinAddr: 0x5FF0, symSize: 0xE0 }
+  - { offsetInCU: 0x2C1F, offset: 0x5E5AD, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo8NSObjectC_Tg5', symObjAddr: 0x20C4, symBinAddr: 0x60D0, symSize: 0x1F4 }
+...
